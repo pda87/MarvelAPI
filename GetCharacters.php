@@ -1,6 +1,7 @@
 <?php
 //ini_set('display_errors', 1);
 
+//Insert Marvel API keys here
 $PRIV_KEY = "MyPrivateKey";
 $PUBLIC_KEY = "MyPublicKey";
 
@@ -25,7 +26,6 @@ $allcharactersjson = array(
 "code" => $marveljson->code,
 "data" => array(
 "results" => array (
-
 ),
 "total" => $totalcharactersavailable
 ),
